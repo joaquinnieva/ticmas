@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://academy.profesional.ticmas.io/favicon.ico" type="image/x-icon">
+  <title>Ticmas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/styles/index.css">
+</head>
+
+<body>
+  <main>
+    <!-- Hero -->
+    <div class="flex flex-column hero">
+      <picture><img class="hero-img" src="https://randomuser.me/api/portraits/men/11.jpg" alt="Portrait"></picture>
+      <div class="hero-info flex flex-column">
+        <h1>Max Romero</h1>
+        <h1>Ingeniero civil</h1>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="data-container">
+      <!-- Tabs -->
+      <div class="flex tabs">
+        <a id="info" class="pointer btn-tab active">Información</a>
+        <a id="exp" class="pointer btn-tab ">Experiencia</a>
+        <a id="skills" class="pointer btn-tab ">Habilidades</a>
+      </div>
+
+      <!-- Info -->
+      <section class="info">
+        <datails id="info_data" class="info-visible">
+          <h3>Mi información personal</h3>
+          <div>
+            <p>● Mail de contacto: eric.hamilton@example.com</p>
+            <p>● Fecha de nacimiento: 6/4/1986</p>
+            <p>● Dirección de residencia: 7900 Hickory Creek Dr</p>
+            <p>● Número de teléfono(363) 515-6975</p>
+          </div>
+        </datails>
+        <datails id="exp_data" class="hidden">
+          <h3>Mi experiencia laboral</h3>
+          <div>
+            <p>● Apoyo al equipa de ingenieria en la elaboración de proyectos y ofertas
+              relacionados con el ciclo integral de los proyectos.</p>
+            <p>● Control y seguimiento de las especificaciones técnicas.</p>
+            <p>● Estudio y planificación de obras, incluyendo la gestión de medios materiales
+              y humanos.</p>
+          </div>
+        </datails>
+        <datails id="skills_data" class="hidden">
+          <h3>Mis habilidades</h3>
+          <p>● Actitud analítica y reflexiva</p>
+          <p>● Diseño estructural</p>
+          <p>● Estimación de costes</p>
+          <p>● Gestión del proyecto</p>
+        </datails>
+      </section>
+    </div>
+  </main>
+  <script src="./src/scripts/index.js" />
+</body>
+
+</html>

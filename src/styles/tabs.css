@@ -1,0 +1,26 @@
+.tabs {
+  gap: 0;
+  justify-content: center;
+  background-color: #1b3182;
+}
+.btn-tab {
+  padding: 10px 15px;
+
+  color: white;
+}
+.btn-tab:hover {
+  background-color: #213da4;
+}
+
+.active {
+  background-color: #1e3aa1;
+  border-bottom: 2px solid #4158ac;
+}
+
+@media (min-width=400px) {
+  .tabs {
+    gap: 1rem;
+    justify-content: center;
+    background-color: #1b3182;
+  }
+}

@@ -1,0 +1,17 @@
+.info {
+  display: flex;
+  justify-content: center;
+  background-color: #1b3182;
+  padding: 1rem;
+}
+
+.info-visible {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  max-width: 30rem;
+}
+
+.info-visible > h3 {
+  margin: 1rem 0 2rem 0;
+}

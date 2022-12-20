@@ -1,0 +1,21 @@
+@import url('./globals.css');
+@import url('./hero.css');
+@import url('./tabs.css');
+@import url('./info.css');
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  color: white;
+}
+
+html {
+  overflow: hidden;
+  background-color: #1b3182;
+}
