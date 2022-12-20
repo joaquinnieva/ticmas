@@ -3,11 +3,12 @@
   justify-content: center;
   background-color: #1b3182;
 }
-.btn-tab {
-  padding: 10px 15px;
 
+.btn-tab {
+  padding: 10px 5px;
   color: white;
 }
+
 .btn-tab:hover {
   background-color: #213da4;
 }
@@ -17,10 +18,16 @@
   border-bottom: 2px solid #4158ac;
 }
 
-@media (min-width=400px) {
+@media (min-width: 400px) {
   .tabs {
     gap: 1rem;
     justify-content: center;
     background-color: #1b3182;
+  }
+
+  .btn-tab {
+    padding: 10px 15px;
+
+    color: white;
   }
 }
